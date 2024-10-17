@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ref-div{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.ref-div img{
+    -webkit-box-reflect: below;
+    -webkit-box-reflect: right  0px linear-gradient(to right, rgba(221, 204, 48, 0), rgba(151, 36, 36, 0.4));
+
+}
+.pagination {
+    display: inline-block;
+     }
+
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    align-content: center;
+  }
+  h2{
+    text-align: center;
+  }
+.resize-user{
+    border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: both;
+  overflow: auto;
+  }
+  
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+
+.nav-bar{
+    background-color: orange;
+    width: 100%;
+    height: 80px;
+    position: relative;
+  
+}
+.new-tage{
+   
+    position: absolute; 
+
+    width: 100%;
+    top: 33px;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+   
+   
+}
+    
+.nav-bar ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+   
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:aqua;
+}    
+
+.nav-bar ul li a:hover{
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 2px;
+}
+
+.logo{
+    height: 70px;
+    width: 100%;
+}
+
+.logo img{
+    width: 70px;
+    margin-left: 20px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo ul li{
+    display: flex;
+/* margin-left: 100px ; */
+margin-top: 10px;
+}
+
+.bang-bang{
+    background-image: url(https://us.123rf.com/450wm/siriocarnevalino/siriocarnevalino1801/siriocarnevalino180100005/94203439-leh-jammu-kashmir-india-along-the-indus-valley-right-at-the-border-with-pakistan-and-china-between.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+
+}
+
+.bang-bang h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.bang-bang:hover{
+    position: absolute; 
+    border-bottom: 2px;
+}

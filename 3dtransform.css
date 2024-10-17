@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.lower-box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(124, 113, 113);
+    margin: 100px auto;
+}
+.upper-box{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    position: absolute;
+    top: 100px;
+    left: 558px;
+    transition: 2s;
+}
+.upper-box:hover{
+    transform:perspective(700px) rotateX(180deg) translateZ(80px);
+}
+.main-div{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 558px;
+}
+.main-div:hover{
+    transform:perspective(700px) scale3d(1,2,3) rotateX(30deg);
+}

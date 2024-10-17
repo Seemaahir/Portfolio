@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.main-div{
+    width: 310px;
+    height: 310px;
+    background-color: red;
+    text-align: center;
+    margin: 100px 500px;
+    transition: 2s;
+    animation-name:example ;
+  animation-duration: 4s
+  
+
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+  }
+.main-div img{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+}
+.main-div:hover{
+    transform:perspective(700px) rotateZ(180deg) translateZ(80px);
+    width: 400px;
+}

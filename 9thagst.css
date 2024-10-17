@@ -1,0 +1,344 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+}
+
+
+.logo{
+    display: flex;
+}
+
+.logo{
+    cursor: pointer;
+}
+.logo h1{
+    font-size: 40px;
+    margin-top: 30px;
+    transition:  2s;
+}
+.logo h1:hover{
+    margin-top: 20px;
+    /* font-size: 40px; */
+    color: brown;
+    cursor: pointer;
+   
+
+}
+
+.nav-bar{
+    background-color:white;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.nav-bar{
+    background-attachment: fixed;
+}
+
+.new-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.new-bar ul li{
+    list-style: none;
+   
+    
+}
+.new-bar ul{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    margin-top: 40px;
+   
+}
+.new-bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: 2s;
+
+}
+
+.new-bar ul li a:hover {
+    color: brown;
+    border-bottom: solid 2px;
+    text-decoration: block;
+}
+
+.login{
+    margin-top: 35px;
+    margin-right: 60px;
+
+}
+
+.login button{
+    font-size: 20px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgb(97, 54, 54);
+    border: none;
+    border-radius: 8px;
+    transition: 2s;
+}
+.login button{
+    cursor: pointer;
+}
+.login button:hover{
+       color: blue;
+       background-color: rgb(124, 195, 212);
+}
+
+.back-img{
+    background-image: url(https://i.etsystatic.com/35521855/r/il/860023/5161202321/il_fullxfull.5161202321_dfst.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-img h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    /* padding: 50px; */
+    padding: 20px;
+}
+.back-img p{
+    color: white;
+}
+.Button{
+    display: flex;
+    gap: 23px;
+}
+
+.Button button{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background: brown;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+
+
+}
+
+.Button button:hover{
+   
+    color: black;
+    background-color: white;
+    
+}
+
+.sub-div {
+    width: 50%;
+}
+.back-img p{
+    line-height: 32px;
+    font-size: 23px;
+}
+.div-bar{
+   text-align: center;
+}
+.div-bar h1{
+    color: rgb(158, 72, 72);
+    font-size: 40px;
+}
+.div-div{
+    display: flex;
+    
+}
+.div-div{
+    margin-top: 30px;
+    gap: 40px;
+    align-content: center;
+   
+}
+.div-1st{
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 14px 15px 4px;
+    
+}
+.div-1st img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+}
+.div-2nd{
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 12px 13px 4px;
+}
+.div-2nd img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+}
+.div-3rd{
+    margin-right: 15px;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 12px 13px 4px;
+}
+.div-3rd img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+}
+.p{
+    align-items: center;
+}
+.section-3rd{
+    display: flex;
+}
+
+.image-2nd{
+    align-content: right;
+    margin-right: 20px;
+
+}
+.image-2nd{
+    width: 40px;
+    height: 100px;
+}
+
+.div-content{
+    margin-top: 40px;
+    align-content: left;
+    text-align: center;
+    margin-left: 5px;
+    width: 480px;
+    height: 180px;
+    
+}
+
+.image-4th{
+    width: 80px;
+    height: 40px;
+    margin-top: 400px;
+    align-content: left;
+}
+.section-4rth{
+    display: flex;
+    justify-content: space-between;
+}
+.content-4rth{
+    align-content: right;
+    margin-top: 600px;
+    width: 500px;
+    height: 40px;
+    margin-right: 100px;
+    justify-content: end;
+}
+.content-4rth{
+    justify-content: right;
+    align-content: end;
+    text-align: end;
+    align-items: end;
+
+}
+.div-5{
+   align-items: center;
+    height: 80px;
+    width: 900px;
+    margin-top: 700px;
+    margin-left: 150px;
+    text-align: center;
+}
+.section-5th{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.img-1st{
+    height: 300px;
+    width: 300px;
+}
+
+.img-2nd{
+    height: 300px;
+    width: 300px;
+}
+.img-3rd{
+    height: 300px;
+    width: 300px;
+}
+.img-4rth{
+    height: 300px;
+    width: 300px;
+}
+.back-img2{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/029/507/417/small_2x/cute-little-birds-perched-on-a-branch-generative-by-ai-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-6th{
+    text-align: center;
+}
+.content-6th h1{
+    color: rgb(119, 58, 58);
+  
+}
+.cont-6th{
+    text-align: center;
+    color: white;
+}
+.cont-6th h1{
+    font-size: 40px;
+}
+.cont-6th h3{
+    font-size: 30px;
+    color: rgb(226, 222, 0);
+}
+.btn-btn button{
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    background: white;
+    color: brown;
+    cursor: pointer;
+    transition: 2s;
+}
+.btn-btn button{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.btn-btn button:hover{
+   
+    color: black;
+    background-color: rgb(138, 106, 39);
+    
+}
+.btn-btn img{
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+}

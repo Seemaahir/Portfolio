@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: o;
+}
+
+.seema{
+    display: flex;
+    background-color: aqua;
+    color:azure;
+    justify-content: space-between;
+    gap: space-between;
+}
+
+.seema list ul li{
+    gap: 10px;
+    text-decoration: none;
+    color:azure;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seema list{
+    gap: 10px;
+    justify-content: space-between;
+justify-content: end;
+}
